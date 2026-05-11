@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jayasree Madineni - Java Backend Developer | Spring Boot | Microservices | AWS">
+    <meta name="keywords" content="Java, Spring Boot, Backend Developer, Microservices, AWS, System Design">
+    <meta name="author" content="Jayasree Madineni">
+    <title>Jayasree Madineni — Java Backend Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#home">JM</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Jayasree Madineni</span> 👋</h1>
+                <p class="hero-subtitle">Java Backend Developer | Spring Boot | Microservices | AWS</p>
+                <p class="hero-description">
+                    I build scalable, secure backend systems that power millions of transactions. 
+                    With 2.6 years at TCS, I've architected production microservices handling 500K+ transactions/month 
+                    with 99.9% uptime.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/jayasree-madineni" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/MadineniJayasree" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://leetcode.com/madineni-jayasree" target="_blank" title="LeetCode">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="mailto:madinenijayasree2001@gmail.com" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="Jayasree Madineni" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Java Backend Developer with <strong>2.6 years of experience</strong> at Tata Consultancy Services (TCS), 
+                        specializing in designing and building <strong>scalable microservices</strong>, 
+                        <strong>secure REST APIs</strong>, and <strong>cloud-native systems</strong>.
+                    </p>
+                    <p>
+                        My passion lies in solving complex architectural problems and optimizing systems for scale. 
+                        I've worked on production systems handling <strong>500,000+ transactions per month with 99.9% uptime</strong>, 
+                        implemented <strong>40% query performance improvements</strong>, and reduced production errors by <strong>35%</strong> 
+                        through comprehensive exception handling.
+                    </p>
+                    <p>
+                        Currently, I'm strengthening my foundation in <strong>System Design</strong> and <strong>Data Structures & Algorithms</strong>, 
+                        while preparing for <strong>AWS Developer Associate</strong> and <strong>Oracle Java Programmer</strong> certifications.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me solving DSA problems on LeetCode, 
+                        reading about distributed systems, or contributing to open-source projects.
+                    </p>
+
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <h3>2.6<span class="unit">Years</span></h3>
+                            <p>Professional Experience</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h3>3<span class="unit">+</span></h3>
+                            <p>Production Microservices</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h3>500K<span class="unit">+/mo</span></h3>
+                            <p>Transactions Processed</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h3>99.9<span class="unit">%</span></h3>
+                            <p>Uptime SLA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Policy Management System">
+                        <div class="project-overlay">
+                            <a href="projects/policy-management.html" class="btn btn-small">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Policy Management & Request Fulfillment System</h3>
+                        <p class="project-description">
+                            Production microservices platform for insurance policy operations, service requests, 
+                            document management, notifications, and payment processing.
+                        </p>
+                        <div class="project-metrics">
+                            <span class="metric">
+                                <i class="fas fa-chart-line"></i> 500K+ transactions/month
+                            </span>
+                            <span class="metric">
+                                <i class="fas fa-shield-alt"></i> 99.9% uptime
+                            </span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-badge">Java 17</span>
+                            <span class="tech-badge">Spring Boot</span>
+                            <span class="tech-badge">MySQL</span>
+                            <span class="tech-badge">AWS</span>
+                            <span class="tech-badge">Docker</span>
+                            <span class="tech-badge">REST APIs</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/MadineniJayasree/policy-management-system" 
+                               target="_blank" title="GitHub Repository">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="System Design Case Studies">
+                        <div class="project-overlay">
+                            <a href="projects/system-design.html" class="btn btn-small">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">System Design Case Studies</h3>
+                        <p class="project-description">
+                            Collection of solved system design problems with architecture diagrams, 
+                            complexity analysis, and Java implementations.
+                        </p>
+                        <div class="project-metrics">
+                            <span class="metric">
+                                <i class="fas fa-book"></i> 4 Case Studies
+                            </span>
+                            <span class="metric">
+                                <i class="fas fa-code"></i> Full Implementations
+                            </span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-badge">System Design</span>
+                            <span class="tech-badge">Java</span>
+                            <span class="tech-badge">Redis</span>
+                            <span class="tech-badge">Caching</span>
+                            <span class="tech-badge">Algorithms</span>
+                            <span class="tech-badge">Design Patterns</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/MadineniJayasree/system-design-case-studies" 
+                               target="_blank" title="GitHub Repository">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="DSA Problem Solutions">
+                        <div class="project-overlay">
+                            <a href="projects/dsa-solutions.html" class="btn btn-small">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">DSA Problem Solutions</h3>
+                        <p class="project-description">
+                            LeetCode and HackerRank problems solved with detailed explanations, 
+                            complexity analysis, and optimizations.
+                        </p>
+                        <div class="project-metrics">
+                            <span class="metric">
+                                <i class="fas fa-check-circle"></i> 250+ Problems
+                            </span>
+                            <span class="metric">
+                                <i class="fas fa-trophy"></i> 1400+ Rating
+                            </span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-badge">LeetCode</span>
+                            <span class="tech-badge">Arrays</span>
+                            <span class="tech-badge">Graphs</span>
+                            <span class="tech-badge">DP</span>
+                            <span class="tech-badge">Trees</span>
+                            <span class="tech-badge">Strings</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://leetcode.com/madineni-jayasree" 
+                               target="_blank" title="LeetCode Profile">
+                                <i class="fas fa-code"></i> LeetCode
+                            </a>
+                            <a href="https://github.com/MadineniJayasree/leetcode-solutions" 
+                               target="_blank" title="GitHub Repository">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul class="skill-list">
+                        <li>Java 8 / 11 / 17</li>
+                        <li>SQL</li>
+                        <li>Python (Basic)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <ul class="skill-list">
+                        <li>Spring Boot 3.x</li>
+                        <li>Spring MVC</li>
+                        <li>Spring Security</li>
+                        <li>JPA / Hibernate</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>APIs & Integration</h3>
+                    <ul class="skill-list">
+                        <li>REST API Design</li>
+                        <li>JWT Authentication</li>
+                        <li>OAuth2</li>
+                        <li>Swagger / OpenAPI</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul class="skill-list">
+                        <li>MySQL (Indexing, Optimization)</li>
+                        <li>PostgreSQL</li>
+                        <li>Redis (Caching)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <ul class="skill-list">
+                        <li>AWS (EC2, S3, Lambda, RDS)</li>
+                        <li>Docker</li>
+                        <li>Jenkins (CI/CD)</li>
+                        <li>Git / GitHub</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Architecture & Design</h3>
+                    <ul class="skill-list">
+                        <li>Microservices</li>
+                        <li>Event-Driven Architecture</li>
+                        <li>System Design</li>
+                        <li>Design Patterns</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Testing & QA</h3>
+                    <ul class="skill-list">
+                        <li>JUnit 5</li>
+                        <li>Mockito</li>
+                        <li>Integration Testing</li>
+                        <li>Code Coverage (75%+)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Utilities</h3>
+                    <ul class="skill-list">
+                        <li>Postman</li>
+                        <li>IntelliJ IDEA</li>
+                        <li>Maven</li>
+                        <li>WinSCP / PuTTY</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Learning</h2>
+            <div class="certifications-grid">
+                <!-- Certification 1 -->
+                <div class="cert-card cert-planned">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>AWS Certified Developer – Associate</h3>
+                    <p class="cert-org">Amazon Web Services (AWS)</p>
+                    <p class="cert-status">🎯 In Progress (Target: Q1 2025)</p>
+                    <p class="cert-details">
+                        Validating expertise in AWS services (EC2, S3, Lambda, RDS, DynamoDB) and CI/CD automation.
+                    </p>
+                </div>
+
+                <!-- Certification 2 -->
+                <div class="cert-card cert-planned">
+                    <div class="cert-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3>Oracle Certified Associate Java Programmer</h3>
+                    <p class="cert-org">Oracle Corporation</p>
+                    <p class="cert-status">🎯 In Progress (Target: Q2 2025)</p>
+                    <p class="cert-details">
+                        Demonstrating mastery of Java fundamentals, OOP, collections, and concurrency.
+                    </p>
+                </div>
+
+                <!-- Certification 3 -->
+                <div class="cert-card cert-completed">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>AWS Developer Training</h3>
+                    <p class="cert-org">Udemy</p>
+                    <p class="cert-date">✅ Completed 2023</p>
+                    <p class="cert-details">
+                        Comprehensive training on AWS services: S3, EC2, Lambda, RDS, and CloudFormation.
+                    </p>
+                </div>
+
+                <!-- Certification 4 -->
+                <div class="cert-card cert-completed">
+                    <div class="cert-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Spring Boot & Microservices</h3>
+                    <p class="cert-org">Udemy</p>
+                    <p class="cert-date">✅ Completed 2023</p>
+                    <p class="cert-details">
+                        Specialized training on Spring Boot, REST APIs, and microservices architecture.
+                    </p>
+                </div>
+
+                <!-- Learning Path -->
+                <div class="cert-card cert-learning">
+                    <div class="cert-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>System Design & Distributed Systems</h3>
+                    <p class="cert-org">Self-Study + Online Resources</p>
+                    <p class="cert-status">📚 In Progress</p>
+                    <p class="cert-details">
+                        Studying scalability, fault tolerance, caching, databases, and design patterns.
+                    </p>
+                </div>
+
+                <!-- DSA Learning -->
+                <div class="cert-card cert-learning">
+                    <div class="cert-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Data Structures & Algorithms</h3>
+                    <p class="cert-org">LeetCode + HackerRank</p>
+                    <p class="cert-status">📈 250+ Problems | 1400+ Rating</p>
+                    <p class="cert-details">
+                        Consistently solving medium-level DSA problems. Target: 400+ by Q2 2025.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Java Backend Developer</h3>
+                        <p class="experience-company">Tata Consultancy Services (TCS)</p>
+                        <p class="experience-duration">
+                            <i class="fas fa-calendar"></i> Aug 2023 – Present (2.6 Years)
+                        </p>
+                        <p class="experience-location">
+                            <i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka
+                        </p>
+                        <div class="experience-highlights">
+                            <p><strong>Key Achievements:</strong></p>
+                            <ul>
+                                <li>Architected 3 production microservices handling 500,000+ transactions/month</li>
+                                <li>Implemented exception handling framework reducing errors by 35%</li>
+                                <li>Optimized MySQL queries improving response time by 40%</li>
+                                <li>Designed async notification system with 95%+ delivery rate</li>
+                                <li>Maintained 75%+ test coverage using JUnit and Mockito</li>
+                                <li>Automated CI/CD pipeline enabling 2–3 daily deployments</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-intro">
+                    I'm always interested in hearing about new opportunities and projects. 
+                    Feel free to reach out — I'd love to connect!
+                </p>
+
+                <div class="contact-methods">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:madinenijayasree2001@gmail.com">madinenijayasree2001@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+919391713719">+91 9391 713 719</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Bengaluru, Karnataka, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links-large">
+                    <a href="https://linkedin.com/in/jayasree-madineni" target="_blank" class="social-btn">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/MadineniJayasree" target="_blank" class="social-btn">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://leetcode.com/madineni-jayasree" target="_blank" class="social-btn">
+                        <i class="fas fa-code"></i> LeetCode
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Jayasree Madineni. All rights reserved.</p>
+            <p>Designed & Built with <span class="heart">❤️</span> using HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
